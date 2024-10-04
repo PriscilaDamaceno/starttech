@@ -1,0 +1,77 @@
+
+/*TABELA*/
+
+.table {
+    width: 90%;
+    margin: auto; /* Centraliza a tabela */
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+  }
+  
+ .table th, .table td {
+    text-align: center;
+    padding: 12px; /* Espaçamento interno */
+  }
+  
+  .table th {
+    background-color: #37474f; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+  }
+  
+  .table tbody tr :hover {
+    background-color: #616060; /* Cor ao passar o mouse */
+  }
+  
+  
+  /*BOTÕES*/
+
+  .btn {
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras */
+    font-size: 14px;
+  }
+  
+  .btn-info {
+    background-color: #03a9f4; /* Cor do botão de edição */
+    border: none;
+    color: white;
+    margin-right: 5px; /* Espaçamento entre os botões */
+  }
+  
+  .btn-info :hover {
+    background-color: #0288d1;
+  }
+  
+  .btn-danger {
+    background-color: #e53935; /* Cor do botão de exclusão */
+    border: none;
+    color: white;
+  }
+  
+  .btn-danger :hover {
+    background-color: #c62828;
+  }
+  
+  .btn-success {
+    background-color: #388e3c; /* Cor do botão de adicionar */
+    border: none;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .btn-success :hover {
+    background-color: #2e7d32;
+  }
+
+/*CONTEÚDO DA TABELA*/  
+
+  .container {
+    margin: 20px auto;
+    max-width: 1200px; /* Limita a largura máxima do conteúdo */
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px;
+  }
+  
