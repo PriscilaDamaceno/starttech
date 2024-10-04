@@ -1,0 +1,33 @@
+<div class="d-flex justify-content-end mb-3">
+    <button class="btn btn-success" [routerLink]="['/produtos-form']">Adicionar Produto</button>
+  </div>
+
+<div class="container">
+    <h2 class="text-center">Lista de Produtos</h2>
+    <table class="table table-bordered mt-4">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Simulação de dados -->
+        <tr *ngFor="let produto of produtos">
+          <td>{{ produto.id }}</td>
+          <td>{{ produto.nome }}</td>
+          <td>{{ produto.quantidade }}</td>
+          <td>{{ produto.preco | currency:'BRL' }}</td>
+          <td>
+            <button class="btn btn-info btn-sm" [routerLink]="['/produtos-form', produto.id]">Editar</button>
+            <button class="btn btn-danger btn-sm" (click)="deletarProduto(produto.id)">Excluir</button>
+            <button class="btn btn-secondary btn-sm" [routerLink]="['/produtos-detalhe', produto.id]">Detalhes</button>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
