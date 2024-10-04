@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: 'Gotham';
+    background-color: #eaefb3; /* Cor de fundo clara */
   }
   
   .container {
@@ -19,7 +20,7 @@ body, html {
     padding: 10px 0; /* Espaçamento interno */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
   }
-  
  
+  
 
   

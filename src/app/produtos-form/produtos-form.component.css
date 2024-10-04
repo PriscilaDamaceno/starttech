@@ -1,0 +1,71 @@
+/* Centraliza o contêiner do formulário */
+.container-form {
+    background-color: #e8f5e9; /* Cor de fundo */
+    border: 2px solid #c8e6c9; /* Borda ao redor do formulário */
+    border-radius: 8px; /* Borda arredondada */
+    padding: 20px;
+    margin: 30px auto; /* Centraliza o contêiner na tela */
+    width: 50%; /* Largura ajustada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Ajuste do título */
+  .container-form h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para os campos do formulário */
+  .container-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .container-form .form-group label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .container-form .form-group input {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cfd8dc; /* Cor da borda dos inputs */
+    padding: 8px;
+  }
+  
+  /* Botão de Salvar */
+  .container-form .btn {
+    display: block;
+    width: 30%;
+    height: 45px;
+    margin: 20px auto; /* Centraliza o botão */
+    font-size: 18px;
+    background-color: #388e3c; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .container-form .btn:hover {
+    background-color: #2e7d32; /* Cor ao passar o mouse */
+  }
+
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  .container-form .form-group label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .container-form .form-group input {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cfd8dc; /* Cor da borda dos inputs */
+    padding: 8px;
+  }
+ 
